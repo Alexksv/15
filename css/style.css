@@ -1,0 +1,101 @@
+@font-face {
+    font-family: Gotham;
+    src: url(../fonts/Gotham-Bold.otf)
+}
+@font-face {
+    font-family: Proxima;
+    src: url(../fonts/proximanova-regular.otf)
+}
+@font-face {
+    font-family: QuiteChocolatey;
+    src: url(../fonts/Quite\ Chocolatey.ttf)
+}
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 1200px;
+    margin: 0 auto;      
+}
+
+.header {
+     background-image: url(../img/fon1.jpg);
+     width: auto;
+     height: 310px;
+}
+.title_name {
+    color: rgb(237, 195, 9);
+    font-size: 90px;
+    text-align: center;
+    white-space: pre;
+    padding: 89px 66px 0px 0px;
+    margin: 0;  
+}
+.title_header {
+    margin: 0;
+    text-align: center;
+    color: antiquewhite;
+    font-size: 45px;
+    white-space: pre;
+    padding: 25px 0 0 110px;
+}
+
+.blocks {
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 25px 100px  25px 100px;
+}
+
+.block_item {
+    width: 450px;
+    min-height: 350px;
+    background-color: white;
+    padding: 10px 50px;
+    box-shadow: 0px 2px 4px 0px rgba(0, 1, 1, 0.2);
+    margin: 15px 0 15px;
+}
+.title_block {
+    font-size: 20px;
+    font-weight: bold;
+}
+.footer {
+    background: rgb(197,199,178);
+    background: linear-gradient(90deg, rgba(197,199,178,1) 10%, rgba(152,95,73,0.8948530095632002) 100%, rgba(0,212,255,1) 100%);
+    
+}
+.contact {
+    text-align: center;
+    padding: 25px 20px 0;
+}
+i.fa {
+    font-size: 50px;
+    margin-left: 20px;
+}
+.fa-vk {
+    color: #0065cc;
+}
+.fa-telegram {
+    color: #2ca5e0;
+    
+}
+.fa-instagram {
+    color: #96146d;
+
+}
+.text_footer {
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    margin: 0;
+    padding-bottom: 1px;
+}
+
+
+  
